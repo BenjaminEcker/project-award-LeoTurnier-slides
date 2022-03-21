@@ -392,7 +392,7 @@ td.hdlist1 {
 link.rel = 'stylesheet';
 link.type = 'text/css';
 link.href = window.location.search.match( /print-pdf/gi ) ? "revealjs/css/print/pdf.css" : "revealjs/css/print/paper.css";
-document.getElementsByTagName( 'head' )[0].appendChild( link );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>LeoTurnier</h1></section><section id="_test"><h2>Test</h2></section></div></div><script src="revealjs/js/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+document.getElementsByTagName( 'head' )[0].appendChild( link );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>LeoTurnier</h1></section><div class="imageblock"><img src="../images/hoop.jpg" alt="hoop"></div></div></div><script src="revealjs/js/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;

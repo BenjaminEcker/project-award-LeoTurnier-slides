@@ -2,4 +2,4 @@
 = LeoTurnier
 ifndef::imagesdir[:imagesdir: ../images]
 
-image::hoop.jpg[]
+image::hoop.jpg[background, size=cover]

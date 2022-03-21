@@ -1,4 +1,5 @@
+[background-opacity="0.3"]
 = LeoTurnier
 ifndef::imagesdir[:imagesdir: ../images]
 
-== Test
+image::hoop.jpg[]
